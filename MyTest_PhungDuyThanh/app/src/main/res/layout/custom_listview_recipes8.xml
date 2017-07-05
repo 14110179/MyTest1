@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+            <ImageView
+                android:id="@+id/img_recipes8"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/hinh3"
+                android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:background="@color/While"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+            <TextView
+                android:id="@+id/txtName_recipes8"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Nam dapibus nisl vitae."
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtName2_recipes8"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/txtName_recipes8"
+                android:layout_marginTop="10dp"
+                android:text="Breakfast"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtName3_recipes8"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/txtName2_recipes8"
+                android:layout_marginTop="10dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adispiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In vo Lorem ipsum dolor sit amet, consectetur adispiscing elit. Ut pretiu"
+                android:textSize="12sp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <FrameLayout
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="185dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/icon_ball"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="#fff"
+        android:layout_marginTop="365dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avatar_recipes8"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/txt_name_recipes8"
+            android:text="Alexander Jones"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginRight="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/traitim"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:id="@+id/txt_sotim_recipes8"
+                android:layout_gravity="center"
+                android:text="16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/icon_comment"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:id="@+id/txt_sobl_recipes8"
+                android:layout_gravity="center"
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

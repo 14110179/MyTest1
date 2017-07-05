@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/While"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtgrid1"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="Vestibulum rutrum qu."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/imggrid"
+            android:src="@drawable/hoa"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+        <TextView
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:id="@+id/txtgrid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:gravity="left"
+            android:text="Weekend backpacking with the guys"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/dongho"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:id="@+id/txtgrid3"
+                android:layout_marginLeft="10dp"
+                android:text="15 min"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

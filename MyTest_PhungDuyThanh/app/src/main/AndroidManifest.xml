@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thanh.mytest_phungduythanh">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity.Tab_Login" />
+        <activity android:name=".Activity.Tab_SignUp" />
+        <activity android:name=".Activity.Layout_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            >
+        </activity>
+        <activity android:name=".Activity.Recipes_9" />
+        <activity android:name=".Activity.Tab_Profile" />
+        <activity android:name=".Activity.Tab_Dietary" />
+        <activity android:name=".Activity.Directions_25" />
+        <activity android:name=".Activity.Shop37" />
+        <activity android:name=".Activity.Shop36" />
+        <activity android:name=".Activity.Recipes10" />
+        <activity android:name=".Activity.Direction20" />
+        <activity android:name=".Activity.Tab1_Direction20" />
+        <activity android:name=".Activity.Tab2_Direction20" />
+        <activity android:name=".Activity.Tab3_Direction20" />
+        <activity android:name=".Activity.Explore11"></activity>
+    </application>
+
+</manifest>

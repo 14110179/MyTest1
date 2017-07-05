@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/homes"
+            android:title="Home"
+            android:checked="true"
+            android:icon="@drawable/hoa" />
+
+
+        <item android:id="@+id/explore"
+            android:title="Explore"
+            android:icon="@drawable/quanho" />
+
+        <item android:id="@+id/recipes"
+            android:title="My Recipes"
+            android:icon="@drawable/quanho" />
+
+        <item android:id="@+id/activity"
+            android:title="Activity"
+            android:icon="@drawable/quanho" />
+
+        <item android:id="@+id/settings"
+            android:title="Settings"
+            android:icon="@drawable/quanho" />
+
+    </group>
+    <group >
+        <item android:title="Logout"
+              android:icon="@null"
+
+            />
+
+
+    </group>
+</menu>

@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanh.mytest_phungduythanh.Fragment.Layout_3">
+
+    <LinearLayout
+        android:background="#388E3C"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/hoa"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp" />
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="Share"
+            android:textColor="@color/While"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Donec facilisis tortor ut augue lacinia, at"
+            android:textColor="@color/While3"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_gravity="center"
+            android:text="viverra ast semper. Sed sapien metus"
+            android:textColor="@color/While3"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_gravity="center"
+            android:text="scelerisque nec pharetra id, tempor a tortor"
+            android:textColor="@color/While3"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_gravity="center"
+            android:text="Pellentesque non dignissim ne."
+            android:textColor="@color/While3"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/h3"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

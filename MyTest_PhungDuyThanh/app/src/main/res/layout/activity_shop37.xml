@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.thanh.mytest_phungduythanh.Activity.Shop37">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_shop37"
+        android:background="@color/Green2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/btnBack_shop37"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/muiten"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="Shop"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:src="@drawable/icon_1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="70dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="#fff"
+            android:id="@+id/rela2"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+            <RelativeLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            <TextView
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Coffee"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="$49.00"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/hinh3"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="140dp" />
+            <RelativeLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="190dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+                <TextView
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:text="Holder, we will set off for Streamtham together, and devote an hour to glancing a little more closely in details."
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#fff"
+            android:layout_marginTop="270dp"
+            android:layout_below="@+id/rela2"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <RelativeLayout
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="Shop Location"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="40 m"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <ImageView
+                android:src="@drawable/img_hinh5"
+                android:scaleType="fitXY"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </RelativeLayout>
+
+            </RelativeLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentBottom="true"
+            android:text="ADD TO CART"
+            android:textColor="#fff"
+            android:background="#FF6D00"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+    </RelativeLayout>
+
+</LinearLayout>

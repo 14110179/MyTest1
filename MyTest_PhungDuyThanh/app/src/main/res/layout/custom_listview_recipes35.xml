@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txt_title_recipes35"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Hipters Coffee"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_centerVertical="true"
+                android:id="@+id/btnShop_recipes35"
+                android:layout_alignParentRight="true"
+                android:text="SHOP"
+                android:textColor="@color/While"
+                android:background="@color/Green2"
+                android:layout_marginBottom="20dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="280dp">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp">
+                <ImageView
+                    android:id="@+id/img1_recipes35"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hinh3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:src="@drawable/dongho"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:id="@+id/txtName_recipes35"
+                        android:textColor="@color/While"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:text="How to cook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="140dp"
+                android:background="#FF716F76"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp">
+                <TextView
+                    android:id="@+id/txt_name_recipes35"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="105dp"
+                    android:text="Nam porttitor"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/While"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/txt_name_recipes35"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtcalorie_recipes35"
+                    android:text="680 calorie"
+                    android:textColor="@color/While"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/While"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="|"/>
+
+                    <TextView
+                        android:id="@+id/txtmincook_recipes35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90 min cook"
+                        android:textColor="@color/While" />
+                </LinearLayout>
+                <Button
+                    android:background="@drawable/custom_button_recipes35"
+                    android:textColor="@color/While"
+                    android:text="DIRECTIONS"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp" />
+                <Button
+                    android:background="@drawable/custom_button_recipes35"
+                    android:textColor="@color/While"
+                    android:text="BUY PRODUCTS"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/img2_recipes35"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="115dp"
+                android:src="@drawable/hinh4"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

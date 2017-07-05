@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanh.mytest_phungduythanh.Fragment.ViewPager1_Explore11">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:src="@drawable/img_hinh1"
+           android:scaleType="fitXY"/>
+       <LinearLayout
+           android:layout_centerVertical="true"
+           android:layout_centerHorizontal="true"
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content"
+           android:gravity="center">
+           <ImageView
+               android:src="@color/icons"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_marginBottom="10dp"/>
+       <TextView
+           android:text="Salads"
+           android:textColor="#fff"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:textStyle="bold"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="10dp"/>
+           <TextView
+               android:gravity="center"
+               android:paddingRight="30dp"
+               android:paddingLeft="30dp"
+               android:maxLines="3"
+               android:ellipsize="end"
+               android:textSize="15sp"
+               android:text="Lorem ipsum dolor sit amet, consectetur adipscing elit. Ut pretium pretium"
+               android:textColor="#fff"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+   </RelativeLayout>
+
+</FrameLayout>

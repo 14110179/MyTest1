@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Green">#2c972f</color>
+    <color name="Green2">#3c8e38</color>
+    <color name="Blue">#4360d2</color>
+    <color name="While">#ffffff</color>
+    <color name="While2">#f2e6e6</color>
+    <color name="While3">#d7d4d4</color>
+    <color name="btnGo">#fa6f0c</color>
+    <color name="grey1">#e6e3e2</color>
+    <color name="custom">#31d9c5bd</color>
+    <color name="custom2">#31d9c5bd</color>
+    <color name="black">#161616</color>
+
+    <color name="selection_ripple">#a5c5ccf5</color>
+    <color name="selection_mask">#8f000000</color>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+</resources>
